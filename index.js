@@ -7,8 +7,8 @@ const fs = require('fs').promises;
 const app = express();
 const port = 3000;
 const uploadDir = path.join(__dirname, 'files');
-const backgroundImagePath = 'https://files.catbox.moe/nghheq.jpg';
-const blurAmount = '10px';
+const backgroundImagePath = 'https://files.catbox.moe/ov05ak';
+const blurAmount = '5px';
 
 fs.mkdir(uploadDir, { recursive: true }).catch(console.error);
 
